@@ -73,3 +73,21 @@ Economy only version.
 - Warnings and economy data are stored persistently in a local SQLite database
 - The .env file is excluded from version control — never share your bot token
 - Run combined_bot.py for full functionality
+
+## PROJECT GOALS
+─────────────────────────────────────────────
+✅ Build a working Discord bot using Python and discord.py
+✅ Implement moderation commands (kick, ban, warn, clear)
+✅ Store warnings persistently using SQLite database
+✅ Structure code using class-based Cog architecture
+✅ Build a separate economy system (daily, balance, shop, buy, inventory, leaderboard)
+✅ Combine both systems into one unified combined bot
+✅ Handle errors gracefully with user-facing messages
+✅ Push to GitHub with a professional README
+✅ Keep bot token secure using .env and .gitignore
+
+## STRETCH GOALS
+─────────────────────────────────────────────
+✅ Use separate entry points for moderation-only and economy-only versions
+⬜ Connect to a live dashboard (planned in v2)
+⬜ Add slash commands alongside prefix commands
